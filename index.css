@@ -1,0 +1,110 @@
+#mainImg > img {
+	width: 100%;
+	border: 3px solid black;
+}
+#main_nav {
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0);
+	position: fixed;
+	overflow: hidden;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+#main_nav > ul {
+	margin-right: 30px;
+	overflow: hidden;
+	float: right;
+}
+#main_nav .navItem {
+	overflow: hidden;
+	float: left;
+	color: white;
+}
+.navItem > a {
+	padding: 10px 20px;
+	line-height: 60px;
+}
+body {
+	position: relative;
+	font-family: 'Noto Serif KR', sans-serif;
+}
+
+/* main section */
+#main_section {
+	width: 1080px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#imgBox {
+	overflow: hidden;
+	height: 1080px;
+}
+
+#imgBox > ul {
+	overflow: hidden;
+}
+.imgOp {
+	width: 270px;
+	height: 270px;
+	float: left;
+	/* padding: 2px;
+	box-sizing: border-box; */
+}
+.imgResize {
+	width: 266px;
+	height: 266px;
+	border : 2px solid white ;
+}
+#showImg {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+#showedImg {
+	width :  500px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+#arrowBox {
+	width: 800px;
+	height: 70px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+.arrow {
+	width: 70px;
+	height: 70px;
+	display: block;
+	opacity: 1.0;
+}
+#leftDir {
+	float: left;
+}
+#rightDir {
+	float: right;
+}
+#icon > img {
+	float: right;
+}
+li > h1{
+	font-weight: bold;
+	font-size: 24px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+table {
+	width: 800px;
+}
