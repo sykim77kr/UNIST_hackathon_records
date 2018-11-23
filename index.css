@@ -24,6 +24,8 @@
 .navItem > a {
 	padding: 10px 20px;
 	line-height: 60px;
+	color: white;
+	font-weight: bolder;
 }
 body {
 	position: relative;
@@ -39,7 +41,7 @@ body {
 
 #imgBox {
 	overflow: hidden;
-	height: 1080px;
+	height: 1200px;
 }
 
 #imgBox > ul {
@@ -93,10 +95,7 @@ body {
 #rightDir {
 	float: right;
 }
-#icon > img {
-	float: right;
-}
-li > h1{
+h1 {
 	font-weight: bold;
 	font-size: 24px;
 }
@@ -106,5 +105,26 @@ td, th {
     padding: 8px;
 }
 table {
-	width: 800px;
+	width: 600px;
+}
+.table-font {
+	text-align: center;
+}
+li > img {
+	margin-right: 20px;
+	width: 460px;
+	display: block;
+	float: left;
+}
+.footer {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #dddd;
+	text-align: center;
+}
+#plus {
+	padding-left: 87%;
+}
+#scheduleIntro, #photo {
+	padding-top: 80px;
 }
